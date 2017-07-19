@@ -46,4 +46,3 @@ public class Article implements Serializable, Comparable<Article> {
         this.content = content;
     }
 }
-

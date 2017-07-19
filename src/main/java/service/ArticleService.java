@@ -1,9 +1,9 @@
 package service;
 
-import dao.ArticleRepository;
-import model.Article;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import dao.ArticleRepository;
+import model.Article;
 
 import java.util.Comparator;
 import java.util.List;

@@ -22,19 +22,12 @@
         <spring.version>1.5.4.RELEASE</spring.version>
     </properties>
 
-
     <dependencies>
         <!--spring boot основная зависимость-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>${spring.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.16</version>
         </dependency>
 
         <!--подключение шаблонизатора-->
@@ -85,5 +78,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
