@@ -45,7 +45,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li><a href="/blog">Статьи</a></li>
-                <li><a href="/blog/editor">Добавить свою</a></li>
+                <li><a href="/blog/editor">Добавить свою статью</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="active">
@@ -63,6 +63,7 @@
             <form th:action="@{/blog/login}" method="post">
                 <fieldset>
                     <h2>Введите данные</h2>
+                    <!--/*@thymesVar id="param" type="ApplicationLauncher"*/-->
                     <div th:if="${param.error}">
                         <div class="alert alert-danger">
                             Вы ввели неправильные данные

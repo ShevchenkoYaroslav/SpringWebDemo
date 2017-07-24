@@ -24,25 +24,27 @@
 
     <dependencies>
         <!--spring boot основная зависимость-->
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>${spring.version}</version>
+            <version>1.5.4.RELEASE</version>
         </dependency>
 
         <!--подключение шаблонизатора-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
-            <version>${spring.version}</version>
+            <version>1.5.4.RELEASE</version>
         </dependency>
 
         <!--работа с базой данных-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
-            <version>${spring.version}</version>
+            <version>1.5.4.RELEASE</version>
         </dependency>
+
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
@@ -53,7 +55,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
-            <version>${spring.version}</version>
+            <version>1.5.4.RELEASE</version>
         </dependency>
     </dependencies>
 
